@@ -1,0 +1,34 @@
+#about {
+  position: relative;
+  margin: 5px auto 0 auto;
+  padding: 10px;
+  min-height: 200px;
+  width: 320px;
+  border-radius: 6px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 28px;
+  color: black;
+  background: rgb(198, 198, 198);
+  box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.6);
+}
+
+#about #edit {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  padding-top: 2px;
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.6);
+}
+
+#about #edit:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}

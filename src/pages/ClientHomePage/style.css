@@ -1,0 +1,65 @@
+#client-page {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  padding-bottom: 75px;
+  background-color: #ffffff;
+}
+
+#client-page img {
+  width: 126px;
+  height: 126px;
+  border-radius: 126px;
+  margin-top: 65px;
+  box-shadow: 2px 2px 4px 2px rgb(198, 198, 198);
+}
+
+#client-page #links {
+  display: flex;
+  flex-direction: column;
+  padding: 35px 0 25px 0;
+  margin-bottom: 65px;
+}
+
+#client-page #links .btn {
+  width: 260px;
+  height: 53px;
+  border-radius: 53px;
+  border: none;
+  margin: 48px auto 0 auto;
+}
+
+#client-page #links #contact {
+  display: flex;
+  flex-direction: row;
+}
+
+#client-page #links .btn-contact {
+  padding-top: 2px;
+  height: 50px;
+  width: 120px;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(198, 198, 198);
+}
+
+#client-page #links #space {
+  width: 20px;
+}
+
+.linkto {
+  margin-top: 50px;
+  margin: 50px auto 0 auto;
+}
+
+#client-page #links .linkto .btn {
+  margin: 0;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  background-color: rgb(198, 198, 198);
+  color: #000000;
+}

@@ -1,0 +1,46 @@
+.radio-input-block {
+  margin: 30px auto 5px auto;
+  height: 170px;
+  width: 280px;
+}
+
+.radio-input-block .box-label {
+  position: relative;
+  margin: 5px auto 0 auto;
+  padding-bottom: 8px;
+  width: 270px;
+  border-radius: 25px;
+  background-color: rgb(198, 198, 198);
+}
+
+.radio-input-block .box-label label{
+  position: absolute;
+  left: 35px;
+  bottom: 8px;
+}
+
+.radio-input-block label{
+  margin-left: 4px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 25px;
+  color: black;
+}
+
+.radio-input-block p {
+  margin-left: 4px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 25px;
+  color: black;
+}
+
+.radio-input-block input{
+  margin: 10px 5px 0 5px;
+  height: 20px;
+  width: 20px;
+}

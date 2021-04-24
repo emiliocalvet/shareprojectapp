@@ -1,0 +1,76 @@
+#login-page {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#login-page img {
+  width: 126px;
+  height: 126px;
+  border-radius: 126px;
+  margin-top: 70px;
+  box-shadow: 2px 2px 4px 2px rgb(198, 198, 198);
+}
+
+#login-page .options-box {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+#login-page .options-box .key-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+#login-page .options-box .key-input #project-password {
+  width: 270px;
+  height: 50px;
+  background-color: rgb(198, 198, 198);
+  color: black;
+  opacity: 0.8;
+  border-radius: 20px;
+  border: none;
+  margin: 4px auto 0 auto;
+  text-align: center;
+  outline: none;
+  padding: 0 15px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+#login-page .options-box .key-input label {
+  width: 260px;
+  margin: 0 auto;
+  color: black;
+  text-align: left;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+}
+
+#login-page .options-box .btn {
+  width: 260px;
+  height: 50px;
+  border-radius: 53px;
+  border: none;
+  margin: 10px auto;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  background-color: rgb(198, 198, 198);
+  color: black;
+}
+
+#login-page .option-box .btn:hover {
+  cursor: pointer;
+}

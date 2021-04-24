@@ -1,0 +1,57 @@
+#project-page {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100%;
+  width: 100vw;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  background: white;
+}
+
+#project-page #container {
+  overflow-x: hidden;
+  margin: 0 auto;
+  width: 360px;
+}
+
+#project-page #upload-section {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+#project-page #upload-section #create-buttons button {
+  position: absolute;
+  height: 53px;
+  width: 113px;
+  border: none;
+  border-radius: 53px;
+  outline: none;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  color: black;
+  background-color: rgb(198, 198, 198);
+}
+
+#upload-section #create-buttons button:first-child {
+  left: 20px;
+}
+
+#upload-section #create-buttons button:last-child {
+  right: 20px;
+}
+
+#project-page #upload-section #create-buttons {
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+}
+
+.loading {
+  margin: 0 auto;
+}

@@ -1,0 +1,35 @@
+#client-project-page {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100%;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  background-color: white;
+}
+
+#client-project-page #container {
+  overflow-x: hidden;
+  margin: 0 auto;
+  width: 360px;
+}
+
+#client-project-page #files-section {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+#client-project-page #container button {
+  margin: 40px 50px 20px 48px;
+  height: 53px;
+  width: 260px;
+  border: none;
+  border-radius: 53px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  color: black;
+  background-color: rgb(198, 198, 198);
+}

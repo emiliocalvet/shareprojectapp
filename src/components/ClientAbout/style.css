@@ -1,0 +1,16 @@
+#client-about {
+  position: relative;
+  margin: 20px auto 0 auto;
+  padding: 10px;
+  min-height: 160px;
+  width: 320px;
+  border-radius: 6px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 28px;
+  color: black;
+  background: rgb(198, 198, 198);
+  box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.6);
+}
