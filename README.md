@@ -1,4 +1,4 @@
-# Frontend InstaWebApp.
+# Frontend ShareProjectApp.
 
 ## Frontend para cadastro e acompanhamento de projetos por meio de upload de arquivos.
 
